@@ -1,0 +1,192 @@
+/* {
+outline: 1px dotted red;
+}*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+}
+
+h1, h2{
+   font-family: "Dela Gothic One" , sans-serif; 
+}
+
+p {
+    font-family: "Roboto" , sans-serif;
+}
+
+.header {
+    background-color: white;
+    color: black;
+    height: 90px;
+    border-bottom: 6px solid #4B4E61;
+    font-family: "Dela Gothic One" , sans-serif; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 200px auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 950px;
+}
+
+.logo img {
+    height:70px;
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.links {
+    margin-top: 40px;
+    font-size: 0.75rem;
+    text-align: right;
+    color: #4B4E61;
+}
+
+.links a {
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.banner {
+    margin-bottom: 600px;
+}
+
+.about {
+    margin: 0;
+    padding: 20px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    color: white;
+    background-color: #4B4E61;
+}
+
+.aboutinfo{
+    max-width: 900px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.bgame {
+    margin: 0;
+    padding: 20px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    color: white;
+    background-color: #4B4E61;
+}
+
+.bgameinfo {
+    max-width: 900px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.bggrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bggrid img {
+    max-width: 250px;
+    width: 100%;
+    padding: 20px;
+}
+
+.bggrid p {
+    padding: 15px;
+    margin: 0;
+}
+
+.destech {
+    margin: 0;
+    padding: 20px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    color: black;
+    background-color: white;
+}
+
+.destechinfo {
+    max-width: 900px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.mbgrid {
+    display: grid;
+}
+
+.mbgrid img {
+    max-width: 250px;
+    width: 100%;
+    padding: 20px;
+}
+
+.mbgrid p {
+    padding: 20px;
+    margin: 0;
+}
+
+.mbgim {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cdgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cdgrid img {
+    max-width: 250px;
+    width: 100%;
+    padding: 20px;
+    max-height: 300px;
+    height: 100%
+}
+
+.cdgrid p {
+    padding: 20px;
+    margin: 0;
+}
+
+.footer {
+    background-color: white;
+    height: 50px;
+    border-top: 6px solid #4B4E61; 
+}
+
+
+
+
+
+
+
+
+
+
+
